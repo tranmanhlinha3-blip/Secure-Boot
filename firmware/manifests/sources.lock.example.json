@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "status": "TEMPLATE_INCOMPLETE_DO_NOT_BUILD",
+  "target": "de10-nano",
+  "host": {
+    "distribution": null,
+    "version": null,
+    "architecture": null,
+    "container_image_digest": null
+  },
+  "components": [
+    {
+      "name": "u-boot-spl",
+      "repository_url": null,
+      "full_commit": null,
+      "observed_banner": "2025.07-gc7262815140f-dirty",
+      "patch_series": [],
+      "config_files": [],
+      "toolchain_id": null
+    },
+    {
+      "name": "tf-a",
+      "repository_url": null,
+      "full_commit": null,
+      "observed_banner": "SP_MIN v2.13.0",
+      "patch_series": [],
+      "config_files": [],
+      "toolchain_id": null
+    },
+    {
+      "name": "optee-os",
+      "repository_url": null,
+      "full_commit": null,
+      "patch_series": [],
+      "config_files": [],
+      "toolchain_id": null
+    },
+    {
+      "name": "optee-client",
+      "repository_url": null,
+      "full_commit": null,
+      "patch_series": [],
+      "config_files": [],
+      "toolchain_id": null
+    },
+    {
+      "name": "optee-test",
+      "repository_url": null,
+      "full_commit": null,
+      "patch_series": [],
+      "config_files": [],
+      "toolchain_id": null
+    },
+    {
+      "name": "linux",
+      "repository_url": null,
+      "full_commit": null,
+      "patch_series": [],
+      "config_files": [],
+      "toolchain_id": null
+    },
+    {
+      "name": "rootfs",
+      "build_system": null,
+      "repository_url": null,
+      "full_commit": null,
+      "config_files": [],
+      "toolchain_id": null
+    }
+  ],
+  "toolchains": [],
+  "board_inputs": {
+    "handoff_files": [],
+    "dts_files": [],
+    "memory_map_file": null,
+    "sd_layout_file": null,
+    "fpga_source_or_release": null
+  },
+  "notes": [
+    "Observed banners are evidence only, not a source lock.",
+    "Null fields must be resolved before a clean build can be claimed.",
+    "Each patch/config input must have a path and SHA-256 in the completed manifest."
+  ]
+}
+

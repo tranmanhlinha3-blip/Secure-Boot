@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "status": "TEMPLATE_NOT_A_TEST_RESULT",
+  "run_id": null,
+  "build_id": null,
+  "time_utc": null,
+  "time_zone": "Asia/Ho_Chi_Minh",
+  "purpose": null,
+  "source": {
+    "project_full_commit": null,
+    "source_lock_sha256": null,
+    "dirty": null,
+    "dirty_diff_sha256": null,
+    "untracked_input_inventory": null
+  },
+  "environment": {
+    "host_id": null,
+    "toolchain_versions": [],
+    "board_id": null,
+    "boot_type": null
+  },
+  "artifacts": [
+    {
+      "role": "example_replace_with_real_artifact",
+      "path": null,
+      "size_bytes": null,
+      "sha256": null
+    }
+  ],
+  "deployment": {
+    "image_layout": null,
+    "media_identity": null,
+    "readback_verification": null
+  },
+  "execution": {
+    "commands": [],
+    "uart_log": null,
+    "linux_log": null,
+    "test_log": null,
+    "exit_codes": {}
+  },
+  "results": {
+    "build": "NOT_RUN",
+    "boot_to_uboot": "NOT_RUN",
+    "boot_to_linux": "NOT_RUN",
+    "xtest": "NOT_RUN",
+    "fpga_programming": "NOT_RUN",
+    "authenticated_boot": "NOT_VERIFIED"
+  },
+  "related_issue": null,
+  "notes": [
+    "Each hardware run must identify the exact deployed artifacts.",
+    "Do not transfer PASS results from another build_id without rerunning validation."
+  ]
+}
+
